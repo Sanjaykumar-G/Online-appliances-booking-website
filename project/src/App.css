@@ -1,0 +1,56 @@
+h1{
+  color:rgb(248, 248, 250);
+}
+h2{
+  color:rgb(10, 10, 10);
+}
+form{
+  color:rgb(3, 3, 3);
+}
+
+box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  border:solid 6px;
+  padding: 30px;
+  width: 450px;
+  /* vertical-align: middle; */
+  padding-right: 30px;
+  /* padding-left: 300px; */
+  border-radius: 8px;
+}
+.up{
+  margin-top: 10px;
+}
+
+nav{
+  position:absolute;
+  right: 0px;
+  left: 0px;
+  border-radius: 1px;
+  background-color: black;
+  height: 50px;
+  
+}
+
+button:hover{
+  background-color: rgb(76, 134, 139);
+}
+
+button{
+  position:static;
+  border-radius: 10%;
+  
+
+}
+
+.center{
+  text-align: center;
+  align-items: center;
+}
+.container text{
+  padding-left: 100px;
+}
