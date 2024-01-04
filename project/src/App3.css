@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body2{
+    background:rgb(194, 221, 245);
+    font-family: 'Lato', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+.container{
+    width: 80%;
+    margin: 50px auto;
+    
+}
+.contact-box{
+    background: #fff;
+    display: flex;
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: #573b8a;
+    color: #fff;
+}
+.h12{
+    margin-bottom: 10px;
+}
+
+.h32{
+    font-size: 16px;
+}
+.container p{
+    margin-bottom: 40px;
+    
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+    background-color: #fff;
+}
+.input2{
+    width:100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+    outline: none;
+    padding-bottom: 5px;
+    
+}
+.textarea2{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.label2{
+    margin-bottom: 6px;
+    display: block;
+    color: #573b8a;
+    font-size: 14px;
+    font-weight: 100;
+}
+.button2{
+    background: #573b8a;
+    width: 40%;
+    height: 2rem;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 25px;
+    margin-top: 20px;
+   
+}
+.contact-left h3{
+    color: #573b8a;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.contact-right h3{
+    color: white;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+tr td:first-child{
+   padding-right: 20px;
+}
+tr td{
+    padding-top: 20px;
+}
