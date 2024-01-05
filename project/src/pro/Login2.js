@@ -18,6 +18,8 @@ function Login2() {
             <div className="main">
                 <input type="checkbox" id="chk" aria-hidden="true"></input>
                 <div className="login">
+                    <div className='main'>
+
                     <form>
                         <label className='label3'>Login</label>
                         <input type="text" name="username" placeholder="Username" required="" />
@@ -32,6 +34,7 @@ function Login2() {
                             <h5><button type="button" onClick={handleSignupClick} className="signupnow">Signup</button></h5>
                         </center>
                     </form>
+                    </div>
                 </div>
             </div>
         </body>
