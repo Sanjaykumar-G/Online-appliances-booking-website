@@ -354,3 +354,167 @@ body {
   /* color: #fff; */
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+h2, p {
+  text-align: center;
+  color: #333;
+}
+
+.product {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.product-image {
+  flex: 0 0 45%;
+  max-width: 45%;
+  margin-right: 5%;
+}
+
+.product-image img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-details {
+  flex: 1;
+}
+
+.product-name {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+  padding-right: 469px;
+}
+
+.rating {
+  color: #f8d100;
+  margin-top: 5px;
+}
+
+.star {
+  display: inline-block;
+  margin-right: 5px;
+  width: 15px;
+  height: 15px;
+  background-color: #f8d100;
+  clip-path: polygon(
+      50% 0%,
+      61% 35%,
+      98% 35%,
+      68% 57%,
+      79% 91%,
+      50% 70%,
+      21% 91%,
+      32% 57%,
+      2% 35%,
+      39% 35%
+  );
+}
+
+p {
+  font-size: 1.2em;
+  color: #6c757d;
+  margin-bottom: 20px;
+}
+
+.specifications-section {
+  margin-top: 30px;
+}
+
+.specifications {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.specifications h2 {
+  font-size: 1.5em;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.specifications li {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+.description-section {
+  margin-top: 30px;
+}
+
+.description {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.price {
+  font-size: 1.5em;
+  color: #28a745;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.btn-buy-now,
+.btn-add-to-cart {
+  background-color: #28a745;
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+}
+
+.btn-buy-now:hover,
+.btn-add-to-cart:hover {
+  background-color: #218838;
+}
+
+@media (max-width: 768px) {
+  .product {
+      flex-direction: column;
+      align-items: stretch;
+  }
+
+  .product-image {
+      flex: 0 0 100%;
+      max-width: 100%;
+      margin-right: 0;
+      margin-bottom: 20px;
+  }
+
+  .btn-buy-now,
+  .btn-add-to-cart {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 10px;
+  }
+}

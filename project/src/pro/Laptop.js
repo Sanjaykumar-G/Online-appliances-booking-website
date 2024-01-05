@@ -28,7 +28,7 @@ function Laptop() {
           {/* <div className="logo-text">TechHaven</div> */}
         </div>
         <div className="nav-links">
-          <a href="/home">Home</a>
+          <a href="/">Home</a>
           <a href="#">Products</a>
           <a href="#">About Us</a>
           <a href="/contacts">Contact</a>

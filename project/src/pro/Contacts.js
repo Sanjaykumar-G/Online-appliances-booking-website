@@ -6,7 +6,7 @@ function Contacts() {
     const navigate = useNavigate();
 
     const handleLoginClick = () => {
-        navigate('/home');
+        navigate('/');
     };
 
     return (

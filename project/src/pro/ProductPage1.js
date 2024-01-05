@@ -2,6 +2,9 @@ import React from 'react';
 import fridge from '../assets/rog.jpeg';
 // import { useNavigate } from 'react-router-dom'; 
 import '../App4.css';
+import logo from '../assets/logo.png';
+import SearchIcon from '@mui/icons-material/Search';
+
 
 const ProductPage = () => {
     const buyNow = () => {
@@ -13,6 +16,31 @@ const ProductPage = () => {
     };
 
     return (
+        <div>
+      <div className="navbar">
+        <div className="logo">
+          <img src={logo} alt="TechHaven Logo" />
+          {/* <div className="logo-text">TechHaven</div> */}
+        </div>
+        <div className="nav-links">
+          <a href="/">Home</a>
+          <a href="#">Products</a>
+          <a href="#">About Us</a>
+          <a href="/contacts">Contact</a>
+          <a href="/login">Login</a>
+          <a href="/signup">Signup</a>
+        </div>
+        <div className="search-container">
+          <input type="text" placeholder="Search..." />
+          <button type="button" className="search-icon">
+            <SearchIcon className="icon" />
+          </button>
+        </div>
+      </div>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
         <div className="container">
             <div className="product">
                 <div className="product-image">
@@ -59,6 +87,7 @@ const ProductPage = () => {
                     <button className="btn-add-to-cart" onClick={addToCart}>Add to Cart</button>
                 </div>
             </div>
+        </div>
         </div>
     );
 };
